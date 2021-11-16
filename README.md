@@ -10,10 +10,16 @@ Por eso, en este reto se pide crear un login que haga que la experiencia de usua
 
 ## Enlace
 
-El enlace de la colección está subido a codepen en con visualización pública.
+El enlace de la colección está subido a codepen en con visualización pública:
 
 ```bash
 https://codepen.io/collection/pgyLjE
+```
+
+Y al repositorio de github:
+
+```bash
+https://github.com/avargascr/interactive-login
 ```
 
 ## Contribución
