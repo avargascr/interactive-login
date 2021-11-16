@@ -36,3 +36,10 @@ Hecho con la herramienta online:
 ```bash
 https://www.codefactor.io/repository/github/avargascr/interactive-login/issues
 ```
+
+## Recursos
+
+Colores extraídos del libro de estilos de la UOC 
+```bash
+https://www.uoc.edu/portal/es/llibre-estil/marca/color/index.html
+```
