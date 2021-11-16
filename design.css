@@ -1,0 +1,109 @@
+/* Blink of the eyes */
+
+@keyframes blink { 
+  0%  { ry: 5; }
+  49% { ry: 5; }
+  50% { ry: 0; }
+  51% { ry: 5; }}
+
+/* Blink animations and transitions */
+
+#mouth, #smile, .eyes, .arms { transition: all 0.50s; }
+.eyes { animation: blink 3s alternate infinite; -webkit-animation: blink 3s alternate infinite; -moz-animation: blink 3s alternate infinite;}
+
+/* General design of the body and html */
+
+html{width: 100%; height: 100%;}
+body {
+  font-family: Arial;
+  background: #73EDFF;
+  font-size: 17px;
+  margin: 0;}
+
+/* Design of the form */
+
+form {
+  display: inline-block;
+  top: 50%;
+  left: 50%;
+  width: 340px;
+  background: #fafafa;
+  padding: 1.5rem;
+  padding-top: 1rem;
+  transform: translate(-50%, -50%);
+  border: 2px solid #000078;
+  position: absolute;
+  box-sizing: border-box;
+  border-radius: 45px;
+  box-shadow: 0px 20px 20px -20px ;}
+
+/* Design of the fieldset */
+
+fieldset {
+  border: 0;
+  margin: 1.2rem 0 0 0;
+  position: relative;
+  padding-top: 1rem;}
+
+/* Design of the div */
+
+fieldset > div {
+  border: 2px solid #000078;
+  border-radius: 5px;
+  position: relative;
+  margin-top: 0.5rem;
+  background: white;}
+
+/* Design of the div (field of submit) */
+
+fieldset#fieldsubmit > div {
+  border-color: #000078;
+  background: #000078;
+    padding-top: 0;}
+
+/* Design of the input of the fieldset */
+
+fieldset input {
+  display: block;
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+  background: transparent;
+  border: 0;
+  padding: 1rem;
+  font-size: 1.1rem;
+  z-index: 3;
+  outline-color: #000078;}
+
+/* If the placeholder is active */
+
+fieldset .placeholder.active {
+  font-size: 0.5rem;
+  color: #000078;
+  margin-top: -0.8rem;}
+
+/* Design of the placeholder */
+
+fieldset .placeholder {
+  top: 50%;
+  position: absolute;
+  left: 1rem;
+  font-size: 1.1rem;
+  transition: all 0.26s;
+  color: #000078;
+  -webkit-transform: translate(0, -50%);
+  transform: translate(0, -50%); 
+  z-index: 5;}
+
+/* Design of the fieldset of the submit input */
+
+fieldset input[type=submit] {
+  border: 0;
+  color: white;
+  cursor: pointer;
+  font-family: K2D, Arial, Sans-serif;}
+
+/* Input if the placeholder is active */
+
+fieldset.with-placeholder input {
+  padding: 1.3rem 1rem 0.8rem 1rem;}

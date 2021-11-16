@@ -1,0 +1,44 @@
+<form method="post" action="#">
+  <svg width="250" height="250" viewBox="0 0 250 250" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title  desc">
+    
+   
+<!-- Definition of the avatar: -->
+    <!-- Definition of the head -->
+      <g id="head" position="center">
+        <circle cx="125" cy="111" r="45"  fill= "#ECDAB2"; />
+        <ellipse class="eyes" cx="107" cy="106" rx="7" ry="6"  fill="#1f1f1f" id="eye-l" />
+        <ellipse class="eyes" cx="143" cy="107" rx="7" ry="6"  fill="#1f1f1f" id="eye-r" />
+        <rect x="115" y="140" width="18" height="40" fill="#ECDAB2" />
+        <path id="mouth" fill="#d73e3e" /> 
+        <path id="smile" fill="white" d="M125,141 C 140,141 143,132 143,132 143,132 125,133 125,133 125,133 106.5,132 106.5,132 106.5,132 110,141 125,141 Z" />
+      </g>
+    
+    <!-- Definition of the body -->
+      <g id="shirt">
+        <path fill="#000078" d="M 132,170 C 146,170 154,200 154,200 154,200 158,245 158,245 158,245 92,245 92,245 96,200 104,170 118,170 118,170 125,172 125,172 125,172 132,170 132,170 Z"/>
+         <path id="arm-r" class="arms" stroke="#000078" fill="none" stroke-width="22" transition= all 0.25s; d="M 132,178 C 156,179 184,220 185,254" />
+        <path id="arm-l" class="arms" transition= all stroke="#000078" 0.25s; fill="none" stroke-width="22" d="M 118,178 C 94,179 66,220 65,254" /></g></g>
+  </svg>
+<!-- Definition of the form: -->
+    <!-- Field of the ID -->
+   <fieldset id="id-field" class="with-placeholder">
+    <text>Your ID</text>
+    <div>
+      <input type="text" name="ID" id="id" required />
+      <div class="placeholder">tip your username's ID</div>
+    </div>
+  </fieldset>
+   <!-- Field of the password -->
+  <fieldset id="password-field">
+    <text>Your password</text>
+    <div>
+      <input type="password" name="password" id="password" spellcheck="false" required />
+    </div>
+  </fieldset>
+  <!-- Field of the submit -->
+  <fieldset id="fieldsubmit">
+    <div>
+      <input type="submit" name="login" id="submit" value="Login" />
+    </div>
+  </fieldset>
+</form>
