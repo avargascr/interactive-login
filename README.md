@@ -25,6 +25,8 @@ El código de este trabajo puede ser de uso público sin ninguna restricción, d
 
 ## Calidad 
 
+Hecho con la herramienta online:
+
 ```bash
-Hecho con la herramienta online https://www.codefactor.io/repository/github/avargascr/interactive-login/issues
+https://www.codefactor.io/repository/github/avargascr/interactive-login/issues
 ```
